@@ -1,7 +1,7 @@
 package Hommework.lesson8;
 
 public class Parallelogram extends Quadrilateral {
-    public final String NAME = "Parallelogram";
+    public final String NAME = "PARALLELOGRAM";
     private double obtuseAngle;
     private double length = length();
     private double width = width();
@@ -29,10 +29,15 @@ public class Parallelogram extends Quadrilateral {
         return longDiagonal;
     }
 
-    public double height() {       //ВЫСОТА
+    public double height() {
         double square = square();
         double height = square / length;
         return height;
+    }
+
+    @Override
+    public String getNAME() {
+        return NAME;
     }
 
     public double getLength() {

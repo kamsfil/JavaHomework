@@ -3,7 +3,8 @@ package Hommework.lesson8;
 import java.util.Objects;
 
 public class Circle implements GeometricFigure {
-    public final String NAME = "Circle";
+
+    public final String NAME = "CIRCLE";
     private double radius;
 
     public Circle(double radius) {

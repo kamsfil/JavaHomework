@@ -1,7 +1,7 @@
 package Hommework.lesson8;
 
 public class Rectangle extends Quadrilateral {
-    public final String NAME = "Rectangle";
+    public final String NAME = "RECTANGLE";
     private double length = length();
     private double width = width();
 

@@ -3,7 +3,7 @@ package Hommework.lesson8;
 import java.util.Objects;
 
 public class Triangle implements GeometricFigure {
-    public final String NAME = "Triangle";
+    public final String NAME = "TRIANGLE";
     private double sideA;
     private double sideB;
     private double sideC;

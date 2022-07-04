@@ -1,7 +1,7 @@
 package Hommework.lesson8;
 
 public class EquilateralTriangle extends Triangle {
-    public final String NAME = "Equilateral Triangle";
+    public final String NAME = "EQUILATERAL_TRIANGLE";
 
     public EquilateralTriangle(double sideA, double sideB, double sideC) {
         super(sideA, sideB, sideC);

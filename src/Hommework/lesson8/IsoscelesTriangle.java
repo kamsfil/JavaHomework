@@ -1,7 +1,7 @@
 package Hommework.lesson8;
 
 public class IsoscelesTriangle extends Triangle {
-    public final String NAME = "Isosceles Triangle";
+    public final String NAME = "ISOSCELES_TRIANGLE";
     private double side = 0.0;
     private double base = 0.0;
 

@@ -1,7 +1,7 @@
 package Hommework.lesson8;
 
 public class Quadrate extends Quadrilateral {
-    public final String NAME = "Quadrate";
+    public final String NAME = "QUADRATE";
 
     public Quadrate(double sideA, double sideB, double sideC, double sideD) {
         super(sideA, sideB, sideC, sideD);

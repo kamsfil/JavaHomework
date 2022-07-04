@@ -3,7 +3,7 @@ package Hommework.lesson8;
 import java.util.Objects;
 
 public class Quadrilateral implements GeometricFigure {
-    public final String NAME = "Quadrilateral";
+    public final String NAME = "QUADRILATERAL";
     private double sideA;
     private double sideB;
     private double sideC;

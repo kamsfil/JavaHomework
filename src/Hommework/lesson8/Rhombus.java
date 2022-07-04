@@ -1,7 +1,7 @@
 package Hommework.lesson8;
 
 public class Rhombus extends Quadrilateral {
-    public final String NAME = "Rhombus";
+    public final String NAME = "RHOMBUS";
     private double obtuseAngle;
     private double length = length();
     private double width = width();
@@ -34,6 +34,11 @@ public class Rhombus extends Quadrilateral {
         double diagonal = diagonal();
         double longDiagonal = Math.sqrt(4*Math.pow(side,2)-Math.pow(diagonal,2));
         return longDiagonal;
+    }
+
+    @Override
+    public String getNAME() {
+        return NAME;
     }
 
     public double getObtuseAngle() {
