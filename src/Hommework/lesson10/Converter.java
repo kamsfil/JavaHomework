@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Converter {
 
-    public static StringBuilder RomanNumeralConverter() {      //Первое пришедшее мне на ум решение, понимаю, много кода для такой задачи
-        Scanner scanner = new Scanner(System.in);              //по этой причине попробую сообразил альтернативное решение.
+    public static StringBuilder RomanNumeralConverter() {      //РџРµСЂРІРѕРµ РїСЂРёС€РµРґС€РµРµ РјРЅРµ РЅР° СѓРј СЂРµС€РµРЅРёРµ, РїРѕРЅРёРјР°СЋ, РјРЅРѕРіРѕ РєРѕРґР° РґР»СЏ С‚Р°РєРѕР№ Р·Р°РґР°С‡Рё
+        Scanner scanner = new Scanner(System.in);              //РїРѕ СЌС‚РѕР№ РїСЂРёС‡РёРЅРµ РїРѕРїСЂРѕР±СѓСЋ СЃРѕРѕР±СЂР°Р·РёР» Р°Р»СЊС‚РµСЂРЅР°С‚РёРІРЅРѕРµ СЂРµС€РµРЅРёРµ.
         int arabicNumeral = scanner.nextInt();
         StringBuilder romanNumerals = new StringBuilder();
         int validationVariable = 0;
