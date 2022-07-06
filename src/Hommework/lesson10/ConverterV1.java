@@ -2,10 +2,10 @@ package Hommework.lesson10;
 
 import java.util.Scanner;
 
-public class Converter {
+public class ConverterV1 {
 
-    public static StringBuilder RomanNumeralConverter() {      //Первое пришедшее мне на ум решение, понимаю, много кода для такой задачи
-        Scanner scanner = new Scanner(System.in);              //по этой причине попробую сообразил альтернативное решение.
+    public static StringBuilder RomanNumeralConverter() {
+        Scanner scanner = new Scanner(System.in);
         int arabicNumeral = scanner.nextInt();
         StringBuilder romanNumerals = new StringBuilder();
         int validationVariable = 0;
