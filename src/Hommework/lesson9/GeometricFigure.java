@@ -1,6 +1,4 @@
-package Hommework.lesson8;
-
-import java.util.Objects;
+package Hommework.lesson9;
 
 public interface GeometricFigure {
     

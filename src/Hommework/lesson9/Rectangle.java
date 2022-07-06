@@ -1,4 +1,4 @@
-package Hommework.lesson8;
+package Hommework.lesson9;
 
 public class Rectangle extends Quadrilateral {
     public final String NAME = "RECTANGLE";

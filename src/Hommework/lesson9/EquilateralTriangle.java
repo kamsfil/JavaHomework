@@ -1,4 +1,4 @@
-package Hommework.lesson8;
+package Hommework.lesson9;
 
 public class EquilateralTriangle extends Triangle {
     public final String NAME = "EQUILATERAL_TRIANGLE";

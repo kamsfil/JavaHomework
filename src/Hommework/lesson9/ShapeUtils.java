@@ -1,4 +1,4 @@
-package Hommework.lesson8;
+package Hommework.lesson9;
 
 public class ShapeUtils {
     public static void figureIsRectangle(double a, double b, double c, double d) {
