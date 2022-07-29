@@ -1,9 +1,17 @@
-package Hommework.lesson12.utilityClass;
+/*
+1. Создать (можно вручную) файл со стихотворением(к примеру Александра Пушкина).
+Определить частоту повторяемости всех букв в стихотворении, игнорируя регистр.
+Вывести результат в отдельный файл в виде:
+     а - 15
+     б - 7
+     и т.д.
+ */
+package Hommework.lesson12.ClassUtil;
 
 import java.io.*;
 
-public final class UtilityClass {
-    public UtilityClass() {
+public final class CounterLetterUtil {
+    public CounterLetterUtil() {
     }
 
     public static void counterLetterRepetition(File file) {
@@ -32,7 +40,7 @@ public final class UtilityClass {
             }
 
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 }
